@@ -1,0 +1,53 @@
+.ani {
+  width: 250px;
+  height: 80px;
+  background-color: greenyellow;
+  font-size: 20px;
+  padding: 0px 100px 75px 100px;
+  border: 20px double rgb(19, 88, 30);
+  margin: 60px 40px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 30px#77d84a;
+  text-shadow: 1px 1px 1px rgb(51, 230, 95);
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(136, 255, 136);
+  animation-name: ani;
+  animation-duration: 12s;
+}
+
+@keyframes ani {
+  0% {
+    background-color: rgb(208, 240, 192);
+  }
+  10% {
+    background-color: rgb(144, 238, 144);
+  }
+  20% {
+    background-color: rgb(152, 255, 152);
+  }
+  30% {
+    background-color: rgb(167, 244, 50);
+  }
+  40% {
+    background-color: rgb(124, 252, 0);
+  }
+  50% {
+    background-color: rgb(143, 212, 0);
+  }
+  60% {
+    background-color: rgb(50, 205, 50);
+  }
+  70% {
+    background-color: rgb(41, 150, 23);
+  }
+  80% {
+    background-color: rgb(34, 140, 34);
+  }
+  90% {
+    background-color: rgb(19, 136, 8);
+  }
+  100% {
+    background-color: rgb(0, 86, 63);
+  }
+}
